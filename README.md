@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+신규 작업환경 구축을 위하여 만들어진 테스트 환경입니다.
 
 ## Getting Started
 
@@ -12,19 +12,24 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+## Workspaces
 
-To learn more about Next.js, take a look at the following resources:
+현재 사용 중인 핵심 프레임워크 또는 라이브러리 목록입니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [StoryBook](https://storybook.js.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Redux](https://redux.js.org/)
+- [redux-actions](https://redux-actions.js.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+## Directory
 
-## Deploy on ZEIT Now
+현재 개발 중인 폴더 구조입니다.
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- asset : font, scss, images
+- components : Input, Button, PopUp ...
+- pages : index.tsx, login.tsx ...
