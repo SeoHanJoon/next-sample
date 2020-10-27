@@ -14,7 +14,6 @@
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "javascript.format.enable": false,
-  "prettier.eslintIntegration": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
